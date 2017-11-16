@@ -11,6 +11,8 @@ public class Exercise1 {
         double y = in.nextDouble();
         
         System.out.println((x*y));
+ 	System.out.println((x*y));
+
               	   
    }
 }
