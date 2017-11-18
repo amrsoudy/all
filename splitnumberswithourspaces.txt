@@ -1,0 +1,40 @@
+package javapractice;
+
+import java.util.Scanner;
+
+public class ex5 {
+
+	public static void main(String[] args) {
+		
+	Scanner kb = new Scanner(System.in);
+	System.out.println("donner moi tout le number SVP  :  ");
+	int data = kb.nextInt();
+	System.out.println(getsumtwonumber(data));
+	
+	
+	}
+	
+	public static int getsumtwonumber(long n){
+		
+		int somme = 0;
+		
+		while (n > 0){
+			System.out.println(n%10);
+			
+			
+			somme += n%10 ;
+			n= n/10;
+			
+		}
+
+		
+		
+		return somme;
+		
+		
+		
+		
+		
+		
+	}
+	
