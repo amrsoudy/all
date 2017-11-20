@@ -16,7 +16,7 @@ int i = 0;
 		  int choix = 0;
 		  System.out.println(n);
 
-		  while(choix != n){
+		  do{
 		  System.out.println("Donner  nomber enter 20 a 40 ");
 			
 		  int  nom1 = input.nextInt();
@@ -52,12 +52,13 @@ int i = 0;
 			  
 			  System.out.println("enter nomber correct enter 0 - 9  Svp ");
 		  }
-		  }
-			  
-			  
-			  
-
-
-
+		  }while(choix != n);
+    }
 }
-}
+			  
+			  
+			  
+
+
+
+
