@@ -10,6 +10,9 @@ public class test {
 
 		
 		int a[] = {22,33,66,88,11};
+		Arrays.sort(a);
+		
+		System.out.println(Arrays.toString(a));
 		min(a);
 		max(a);		
 		//pour  crée Array 
