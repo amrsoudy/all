@@ -1,5 +1,4 @@
-
-
+package tests;
 import java.util.Random;
 import java.util.Scanner;
 public class Exercise8 {
@@ -11,17 +10,18 @@ int i = 0;
 	  Scanner input = new Scanner(System.in);
 	  
 
-	  while (i  <  3){
+	 
 		  Random rand = new Random();
-		  int n = rand.nextInt(10);
+		  int n = rand.nextInt(20)+20;
+		  int choix = 0;
 		  System.out.println(n);
 
-		  
-		  System.out.println("Donner  nomber enter 0 a 9 ");
+		  do{
+		  System.out.println("Donner  nomber enter 20 a 40 ");
 			
 		  int  nom1 = input.nextInt();
 		  
-		  if (nom1 >= 0 && nom1 <10){
+		  if (nom1 >= 20 && nom1 <40){
 			  
 			  if (nom1 < n){
 				  System.out.println("votre nombre est plus que la random  " );
@@ -52,12 +52,13 @@ int i = 0;
 			  
 			  System.out.println("enter nomber correct enter 0 - 9  Svp ");
 		  }
-		  }
-			  
-			  
-			  
-
-
-
+		  }while(choix != n);
+    }
 }
-}
+			  
+			  
+			  
+
+
+
+
