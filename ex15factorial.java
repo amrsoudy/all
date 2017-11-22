@@ -12,9 +12,11 @@ public class ex15 {
 		for(int i=value;i>0;i--){//5-0 //4//33
 			
 			fab =i*fab;
-			System.out.println(fab);
+			System.out.print(i+"*");
+
 			
-		}
+		}System.out.print("="+fab);
+
 
 	}
 
